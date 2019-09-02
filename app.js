@@ -32,6 +32,16 @@ app.get('/aboutus', (req, res) =>{
     res.render('aboutus');
 });
 
+//contact Us Route
+app.get('/contact', (req, res) =>{
+    res.render('contact');
+});
+
+//projects Route
+app.get('/projects', (req, res) =>{
+    res.render('projects');
+});
+
 const port = 5000;
 
 app.listen(port, () =>{
